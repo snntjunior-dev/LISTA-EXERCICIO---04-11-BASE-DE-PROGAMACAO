@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+    float ELEITOT, BRANCO, NULO, VALIDO;
+    float percentualBrancos, percentualNulos, percentualValidos;
+    
+int main()
+{
+    
+    printf("Digite a quantidade de eleitores: ");
+    scanf("%f", &ELEITOT);
+    
+    printf("Quantos votos Brancos: ");
+    scanf("%f", &BRANCO);
+    
+    printf("Quantos Votos Nulos: ");
+    scanf("%f", &NULO);
+    
+    printf("Quantos Validos: ");
+    scanf("%f", &VALIDO);
+    
+    percentualBrancos = (BRANCO / ELEITOT) * 100;
+    percentualNulos = (NULO / ELEITOT) * 100;
+    percentualValidos = (VALIDO / ELEITOT) * 100;
+    
+    printf("\n\n");
+    
+    printf("Percentual de votos brancos: %.2f%%\n", percentualBrancos);
+    printf("Percentual de votos nulos: %.2f%%\n", percentualNulos);
+    printf("Percentual de votos válidos: %.2f%%\n", percentualValidos);
+}
