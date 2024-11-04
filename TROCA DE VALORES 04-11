@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int A = 10, B = 20, aux;
+    
+    printf("Valores inciciais: A = %d, B = %d\n", A, B);
+    
+    aux = A;
+    A = B;
+    B = aux;
+    
+    printf("Valores finais: A = %d, B = %d\n", A, B);
+    
+    return 0;
+}
