@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+    int ANOS, MESES, DIAS, DIAT, ANOST, TOTAL, MESEST;
+
+int main(){
+
+    printf("Digite quantos anos você tem: ");
+    scanf("%i", &ANOS);
+    
+    printf("Meses: ");
+    scanf("%i", &MESES);
+    
+    printf("Dias: ");
+    scanf("%i", &DIAS);
+    
+    ANOST = ANOS * 365;
+    MESEST = MESES * 30;
+    DIAT = ANOST + MESEST;
+    
+    TOTAL = DIAT + DIAS;
+    
+    printf("Idade em Dias: %i", TOTAL);
+    
+    return 0;
+    
+}
+    
