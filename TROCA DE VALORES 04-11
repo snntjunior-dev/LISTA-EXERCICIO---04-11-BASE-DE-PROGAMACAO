@@ -3,7 +3,7 @@
 int main() {
     int A = 10, B = 20, aux;
     
-    printf("Valores inciciais: A = %d, B = %d\n", A, B);
+    printf("Valores iniciais: A = %d, B = %d\n", A, B);
     
     aux = A;
     A = B;
