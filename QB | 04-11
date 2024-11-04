@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+    int A, B, C;
+
+int main() {
+    
+    A = 30;
+    B = 20;
+    
+    C = A + B;
+    
+    printf("Valor de C: %i\n", C);
+    
+    B = 10;
+    
+    printf("Valores: B = %i, C = %i\n", B, C);
+    
+    C = A + B;
+    
+    printf("Valores: A = %i, B = %i, C = %i\n", A, B, C);
+    
+    return 0;
+}
