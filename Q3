@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+    int BASE, ALTURA, AREA;
+    
+int main() {
+    
+    printf("Digite o Valor da Base: ");
+    scanf("%i", &BASE);
+    
+    printf("Digite o Valor da Altura: ");
+    scanf("%i", &ALTURA);
+    
+    AREA = BASE * ALTURA;
+    
+    printf("O Valor da Area é: %i", AREA);
+    
+    return 0;
+    
+}
